@@ -1,0 +1,9 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\Admin\Desktop\Projects\project_work\for_redistribution" />
+  <mkdir dir="C:\Users\Admin\Desktop\Projects\project_work\for_testing" />
+</ant>
+mcc -C -o project_work -W WinMain:project_work -T link:exe -d C:\Users\Admin\Desktop\Projects\project_work\for_testing -v C:\Users\Admin\Desktop\Projects\project_work.m 
+Test checkout of feature 'Compiler' failed.
+
+mcc failed.

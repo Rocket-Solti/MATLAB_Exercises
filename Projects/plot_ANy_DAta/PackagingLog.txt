@@ -1,0 +1,9 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\Admin\Desktop\Projects\plot_ANy_DAta\for_redistribution" />
+  <mkdir dir="C:\Users\Admin\Desktop\Projects\plot_ANy_DAta\for_testing" />
+</ant>
+mcc -C -o plot_ANy_DAta -W WinMain:plot_ANy_DAta -T link:exe -d C:\Users\Admin\Desktop\Projects\plot_ANy_DAta\for_testing -v C:\Users\Admin\Desktop\Projects\project_work.m 
+Test checkout of feature 'Compiler' failed.
+
+mcc failed.
